@@ -1,0 +1,22 @@
+.cabecalho {
+    background-color: blueviolet;
+    padding-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cabecalho_imagem {
+    width: 20%;
+    padding-bottom: 0.7rem;
+}
+
+.cabecalho_nav-item {
+    padding-bottom: 0.5rem;
+
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: bold;
+}

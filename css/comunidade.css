@@ -1,0 +1,52 @@
+.comunidade {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.comunidade_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.comunidade_item {
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    background-repeat:no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+    
+    padding: 2rem 0 2rem 5rem;
+
+
+}
+
+.comunidade_item-discord {
+    background-image: url(../img/discord.svg);
+}
+
+.comunidade_item--whatsapp{
+    background-image: url(../img/whatsapp.svg);
+}
+
+.comunidade_item--instagram{
+    background-image: url(../img/instagram.svg);
+}
+
+
+.comunidade_item_titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.comunidade_item_descricao {
+    line-height: normal;
+}
+
+
+

@@ -1,0 +1,31 @@
+.apresentacao{
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    background-color: blue;
+}
+
+.apresentacao_titulo{
+    
+    padding-bottom: 0.7rem;
+
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-style: bold;
+} 
+
+.apresentacao_imagem {
+    width: 100%;
+    padding-bottom: 1.1rem;
+}
+
+.apresentacao_texto {
+    color: white;
+    text-align: start;
+    font-size: 1.3rem;
+
+    padding-bottom: 2rem;
+}
